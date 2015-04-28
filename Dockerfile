@@ -27,4 +27,4 @@ RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 RUN conda clean -y -t
 
 # Test.
-RUN python -c "import iris, pyoos, oceans, utilities"
+# RUN python -c "import iris, pyoos, oceans, utilities"
